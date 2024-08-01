@@ -1,0 +1,24 @@
+.copyContainer {
+  @apply flex flex-col absolute text-white border border-white rounded p-2;
+  left: 30px;
+  bottom: 100px;
+
+  hr {
+    @apply my-1;
+  }
+  .copyHeading {
+    @apply text-base;
+  }
+
+  .copyDescription {
+    @apply flex items-center text-sm;
+  }
+
+  .copiedPopup {
+  @apply absolute bg-green-500 text-white py-1 px-3 rounded;
+  top: -10px; /* Adjust this value to position the popup */
+  right: 10px; /* Adjust this value to position the popup */
+  z-index: 10;
+  cursor: pointer;
+}
+}
